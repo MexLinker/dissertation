@@ -29,11 +29,11 @@
 \contentsline {subsection}{\numberline {2.7.1}致谢}{17}{subsection.2.7.1}%
 \contentsline {subsection}{\numberline {2.7.2}简历及科研成果}{18}{subsection.2.7.2}%
 \contentsline {chapter}{参考文献}{19}{section*.24}%
-\contentsline {chapter}{附录}{19}{section*.25}%
+\contentsline {chapter}{附录}{21}{section*.26}%
 \save@tocdepth \setcounter {tocdepth}{-1}
-\contentsline {chapter}{\numberline {附录 A}其他排版细节测试}{19}{appendix.A}%
-\contentsline {section}{\numberline {A.1}排版数学公式}{19}{section.A.1}%
-\contentsline {section}{\numberline {A.2}排版生僻字}{19}{section.A.2}%
+\contentsline {chapter}{\numberline {附录 A}其他排版细节测试}{21}{appendix.A}%
+\contentsline {section}{\numberline {A.1}排版数学公式}{21}{section.A.1}%
+\contentsline {section}{\numberline {A.2}排版生僻字}{21}{section.A.2}%
 \save@tocdepth \setcounter {tocdepth}{0}
-\contentsline {chapter}{致谢}{23}{appendix*.26}%
-\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{25}{appendix*.27}%
+\contentsline {chapter}{致谢}{25}{appendix*.27}%
+\contentsline {chapter}{作者简历及攻读学位期间发表的学术论文与研究成果}{27}{appendix*.28}%

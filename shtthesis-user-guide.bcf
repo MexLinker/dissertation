@@ -2964,16 +2964,21 @@
   <bcf:section number="0">
     <bcf:citekey order="1" intorder="1">bachelor2019</bcf:citekey>
     <bcf:citekey order="2" intorder="1">bachelor2019</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">clerkma2013unicode</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">stamerjohanns2009mathml</bcf:citekey>
-    <bcf:citekey order="4" intorder="2">yuan2012lana</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">Bohan1928</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">Bohan1928</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">yuan2012lana</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">niu2013zonghe</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">walls2013drought</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">bravo1990comparative</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">chen1980zhongguo</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">bachelor2019</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">clerkma2013unicode</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">clerkma2013unicode</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">stamerjohanns2009mathml</bcf:citekey>
+    <bcf:citekey order="6" intorder="2">yuan2012lana</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">Bohan1928</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">Bohan1928</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">Bohan1928</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">yuan2012lana</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">niu2013zonghe</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">walls2013drought</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">bravo1990comparative</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">bravo1990comparative</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">chen1980zhongguo</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">chen1980zhongguo</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="gb7714-2015">
