@@ -1,0 +1,55 @@
+# ==========================
+# LaTeX build files
+# ==========================
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.xdv
+
+# ==========================
+# Editor and temporary files
+# ==========================
+*~
+.*.un~
+*.bak
+*.swp
+*.tmp
+*.old
+
+# ==========================
+# Output files
+# ==========================
+# *.pdf
+
+# Keep specific PDF files if needed
+#!shanghaitech-emblem.pdf
+
+# ==========================
+# OS-generated files
+# ==========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================
+# VSCode / JetBrains / Vim config
+# ==========================
+.vscode/
+.idea/
+*.vim
+
+# ==========================
+# Other
+# ==========================
+latexmkrc
+
