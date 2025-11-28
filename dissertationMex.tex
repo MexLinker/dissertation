@@ -328,13 +328,32 @@
     \fbox{%
       \begin{minipage}[b][2.5cm][c]{0.75\columnwidth}%
         \centering\zihao{-5}\bfseries\sffamily\color{ShtRed}%
-        校徽文件 \texttt{shanghaitech-emblem.pdf} 缺失%
+        校徽文件inFigFolder \texttt{shanghaitech-emblem.pdf} 缺失%
       \end{minipage}%
     }%
   }%
   \bicaption{上海科技大学校徽}{School logo of ShanghaiTech University}
   \label{img::sht_logo}
 \end{figure}
+
+% this is emblem in folder
+\begin{figure}[htb]
+  \centering
+  % PDF is now in ./fig folder
+  \IfFileExists{fig/shanghaitech-emblem.pdf}{%
+    \includegraphics[width=0.5\columnwidth]{fig/shanghaitech-emblem.pdf}%
+  }{%
+    \fbox{%
+      \begin{minipage}[b][2.5cm][c]{0.75\columnwidth}%
+        \centering\zihao{-5}\bfseries\sffamily\color{ShtRed}%
+        校徽文件 in ./fig 文件夹 \texttt{shanghaitech-emblem.pdf} 缺失%
+      \end{minipage}%
+    }%
+  }%
+  \bicaption{上海科技大学校徽}{School logo of ShanghaiTech University}
+  \label{img::sht_logo}
+\end{figure}
+
 
 本文档将尽量详细地阐释 \shtthesis{} 的使用方法和技巧。同时本文档直接使用 \shtthesis{} 排版，其源代码文件 \jobname.tex 也可以作为一个实际样例以供读者参考使用。
 
