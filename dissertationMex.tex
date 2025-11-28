@@ -17,47 +17,28 @@
 % graduate setup
 \documentclass[master]{shtthesis}
 \shtsetup{
+  % shtsetup
   degree-name = {工学硕士},
   degree-name* = {Master~of~Science~in~Engineering},
-  secret-level = {白给},
+  secret-level = {你喜欢},
   title = {\ShtThesis{}~v\version{}~使用说明},
   title* = {A~User's~Guide\\to\\\ShtThesis{}~v\version{}},
   keywords = {上海科技大学，学位论文，\LaTeX{}},
   keywords* = {ShanghaiTech~University, Thesis, \LaTeX{}},
-  author = {Shengqi Gao},
-  author* = {Li~Rundong},
+  author = {高圣淇},
+  author* = {Gao~Shengqi},
   institution = {上海科技大学信息科学与技术学院},
   institution* = {School~of~Information~Science~and~Technology\\%
                   ShanghaiTech~University},
-  supervisor = {范睿~副教授},
-  supervisor* = {Professor~Fan~Rui},
+  supervisor = {梁俊睿~副教授},
+  supervisor* = {Professor~Liang~Junrui},
   supervisor-institution = {上海科技大学信息科学与技术学院},
-  discipline-level-1 = {计算机科学与技术},
+  discipline-level-1 = {信息与通信工程},
   discipline-level-1* = {Computer~Science~and~Technology},
   bib-resource = {reference.bib},
 }
 
-% undergraduate setup
-% \documentclass[bachelor, comfort]{shtthesis}
-% \shtsetup{
-%   title = {\ShtThesis{}~v\version{}\\使用说明},
-%   title* = {A~User's~Guide~to\\\ShtThesis{}~v\version{}},
-%   keywords = {上海科技大学，学位论文，\LaTeX{}},
-%   keywords* = {ShanghaiTech~University, Thesis, \LaTeX{}},
-%   date = {2021~年~02~月},
-%   date* = {02~/~2021},
-%   author = {李润东},
-%   author* = {Rundong~Li},
-%   author-id = {36273800},
-%   entrance-year = {2017},
-%   institution = {信息科学与技术学院},
-%   institution* = {School~of~Information~Science~and~Technology},
-%   supervisor = {范睿},
-%   supervisor* = {Rui~Fan},
-%   discipline = {计算机科学与技术},
-%   discipline* = {Computer~Science~and~Technology},
-%   bib-resource = {reference.bib},
-% }
+
 
 % `latex' and `shell' environments are adapted from `thuthesis'
 \usepackage{listings}
@@ -338,6 +319,22 @@
 \mainmatter
 \chapter{模板介绍}
 \shtthesis{} (\textbf{S}hang\textbf{h}ai\textbf{T}ech University \textbf{THESIS}) 是根据《上海科技大学研究生学位论文撰写规范（初稿）》和《上海科技大学本科毕业论文（设计）工作条例（试行）》（下文统一简称《规范》）编写的、适用于上海科技大学学位论文写作的\emph{非官方} \LaTeX 模板。目前版本（v\version{}）提供了本科、硕士和博士学位论文排版选项，且能够自动生成用于盲审的匿名版以及最终提交的打印版论文。
+
+\begin{figure}[htb]
+  \centering
+  \IfFileExists{shanghaitech-emblem.pdf}{%
+    \includegraphics[width=0.5\columnwidth]{shanghaitech-emblem.pdf}%
+  }{%
+    \fbox{%
+      \begin{minipage}[b][2.5cm][c]{0.75\columnwidth}%
+        \centering\zihao{-5}\bfseries\sffamily\color{ShtRed}%
+        校徽文件 \texttt{shanghaitech-emblem.pdf} 缺失%
+      \end{minipage}%
+    }%
+  }%
+  \bicaption{上海科技大学校徽}{School logo of ShanghaiTech University}
+  \label{img::sht_logo}
+\end{figure}
 
 本文档将尽量详细地阐释 \shtthesis{} 的使用方法和技巧。同时本文档直接使用 \shtthesis{} 排版，其源代码文件 \jobname.tex 也可以作为一个实际样例以供读者参考使用。
 
@@ -923,14 +920,25 @@ P(A|B) &= \frac{P(A)P(B|A)}{P(B)} \label{eq::bayesian}
 
 \begin{publications}
   论文发表…… （非匿名环境）
+
+  1. SiPS
+
+  2. ISCAS
+
+  3. TMech
+
 \end{publications}
 
 \begin{publications*}
   论文发表…… （匿名环境）
+  
+  None
 \end{publications*}
 
 \begin{patents}
   专利申请或授权记录…… （非匿名环境）
+  
+  
 \end{patents}
 
 \begin{patents*}
@@ -939,6 +947,8 @@ P(A|B) &= \frac{P(A)P(B|A)}{P(B)} \label{eq::bayesian}
 
 \begin{projects}
   个人参与的科研项目、获奖情况…… （仅非匿名环境显示）
+
+  LiHui National xxx
 \end{projects}
 \fi
 
