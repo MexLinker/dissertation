@@ -852,21 +852,6 @@ P(A|B) &= \frac{P(A)P(B|A)}{P(B)} \label{eq::bayesian}
 《规范》要求在文末依此列出致谢、作者简历、攻读学位期间发表的论文与研究成果。用户可使用 \shtthesis{} 提供的相应环境 acknowledgement、resume、publications、patents 和 projects 进行排版。同时为了生成符合盲审要求的论文，\shtthesis{} 也提供了对应的\emph{匿名环境} publications*、patents* 和 projects*。在打开 \verb|anonymous| 选项（第~\ref{sec::option_anonymous} 节）后，论文中不出现“致谢”一节，作者简历内容替换为匿名字符串，其他小节使用匿名环境内容排版。注意在第一次使用任一上述环境前，需要使用 \verb|\backmatter| 切换至后记模式。
 
 \subsection{致谢}
-在 acknowledgement 环境内书写致谢，致谢内容在匿名模式下不显示。
-% \begin{latex}
-% \begin{acknowledgement}
-%   致谢信息……
-% \end{acknowledgement}
-% \end{latex}
-
-\begin{acknowledgement}
-
-站在硕士生涯的另一端，我该如何描述自己的故事呢？这三年来的，无数次心跳、兴奋与挣扎、倦怠，终将被我平淡的描述。我的初心是——喜欢电子信息相关的研究；觉得读硕士很体面；痴迷于上海的霓虹... ... 硕士生涯给了我更多——我学会了面对压力冷静地分析问题；学会了在繁杂的任务下安排时间；学会了一个人设计、执行实验；学会了包装自己与学术表达；树立了想在科研上更进一步的决心；将自己塑造成一个更加完善的人。这一路有贵人相助，有父母支持，有爱人相伴，有朋友鼓励，这些力量让我有可能、有能力在上海科技大学这个严格的环境下，完成自己的硕士学习。在此我将引入几个故事，表达我诚挚的感谢。
-
-
-首先感谢我的恩师梁俊睿教授。记得向梁老师吐露自己想继续在学术上的求索的那晚，我们聊到了凌晨。讲到苏黎世的偏僻城堡，没有智能手机时代的GPS导航，伯克利周围的森林... 我收获了很多，冶学经历、生活感触。对于研究思路与研究方法上的点拨；对于申请博士的支持，给与的帮助。
-
-\end{acknowledgement}
 
 \subsection{简历及科研成果}
 此部分需要依此书写个人简历（resume 环境）、已发表（或正式接受）的学术论文（publications 和 publications* 环境）、申请或已获得的专利（patents 和 patents* 环境）、参加的研究项目及获奖情况（projects 和 projects*）。根据是否匿名分别显示非匿名环境内容和匿名环境内容。
@@ -936,16 +921,27 @@ P(A|B) &= \frac{P(A)P(B|A)}{P(B)} \label{eq::bayesian}
 
 \backmatter
 \begin{acknowledgement}
-\shtthesis{} 派生于中国科学院大学论文模板 \textsf{ucasthesis}\footnote{\url{https://github.com/mohuangrui/ucasthesis}，使用 GPLv3 许可证分发。}；v0.2.0 开发过程中参考了清华大学论文模板 \textsf{thuthesis}\footnote{\url{https://www.ctan.org/pkg/thuthesis}，使用 LPPL-1.3c 许可证分发。}，特别是 \verb|\thusetup| 命令的设计和实现；v0.3.0 及后续版本开发过程中参考了复旦大学论文模板 \textsf{fduthesis}\footnote{\url{https://www.ctan.org/pkg/fduthesis}，使用 LPPL-1.3c 许可证分发。}，以及其超链接配色方案。这些项目中流淌的智慧，以及项目作者们的专业态度和共享精神使得 \shtthesis{} 的开发及完善成为可能。
+
+站在硕士生涯的另一端，我该如何描述自己的故事呢？这三年来的，无数次心跳、兴奋与挣扎、倦怠，终将被我平淡的描述。我的初心是——喜欢电子信息相关的研究；觉得读硕士很体面；痴迷于上海的霓虹... ... 硕士生涯给了我更多——我学会了面对压力冷静地分析问题；学会了在繁杂的任务下安排时间；学会了一个人设计、执行实验；学会了包装自己与学术表达；树立了想在科研上更进一步的决心；将自己塑造成一个更加完善的人。这一路有贵人相助，有父母支持，有爱人相伴，有朋友鼓励，这些力量让我有可能、有能力在上海科技大学这个严格的环境下，完成自己的硕士学习。在此我将引入几个故事，表达我诚挚的感谢。
+
+
+首先感谢我的恩师梁俊睿教授。记得向梁老师吐露自己想继续在学术上的求索的那晚，我们聊到了凌晨。讲到苏黎世的偏僻城堡，没有智能手机时代的GPS导航，伯克利周围的森林... 我收获了很多，冶学经历、生活感触。对于研究思路与研究方法上的点拨；对于申请博士的支持，给与的帮助。
+
+\hfill Your text to align right.
+\hfill 贰零贰伍年，十贰月。
+
 \end{acknowledgement}
 
 \ifgraduate
 \begin{resume}
-  李润东，\shtthesis{} 项目初版作者及维护者，热爱摸鱼。
+  高圣淇，男，陕西省宝鸡市人，上海科技大学信息学院硕士研究生。
+  通讯地址： xxx
+  邮编： xxxx
+  电子邮件： gaoshq2023@shanghaitech.edu.cn
 \end{resume}
 
 \begin{publications}
-  论文发表…… （非匿名环境）
+
 
   1. SiPS
 
@@ -975,6 +971,8 @@ P(A|B) &= \frac{P(A)P(B|A)}{P(B)} \label{eq::bayesian}
   个人参与的科研项目、获奖情况…… （仅非匿名环境显示）
 
   LiHui National xxx
+
+  国自然项目101
 \end{projects}
 \fi
 
