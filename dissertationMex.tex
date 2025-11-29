@@ -337,10 +337,14 @@
 
 
 
+
+
+\section{This section is test section of show latex technics}
+
 \begin{figure}[htb]
   \centering
   \IfFileExists{fig/gaosq.jpg}{
-    \includegraphics[width=0.25\columnwidth]{fig/gaosq.jpg}%
+    \includegraphics[width=0.15\columnwidth]{fig/gaosq.jpg}%
   }{
     \fbox{%
       \begin{minipage}[b][2.5cm][c]{0.75\columnwidth}%
@@ -353,14 +357,16 @@
   \label{img::auther_gaosq}
 \end{figure}
 
-\section{Sections can generate 目录}
+You can quote this figure by ref~\ref{img::auther_gaosq}, and notice its width is 0.15.
 
 \begin{align}
   P(a|B) &= \frac{P(a)P(B|a)}{P(B)} 
   \label{eq::bayesian_vER2}
 \end{align}
 同时重载了 \verb|\eqref|，使得公式编号格式修改后，其引用格式仍与 \textsf{amsmath} 无异：贝叶斯定理~\eqref{eq::bayesian_vER2}(notice, this is Bver2, we turn the a to lower case)。
+(notice2: if you encounter ?? double questionmark at refer the equation, try to compile agian, idk why, but it sloves)
 
+\subsubsection{You can use the subsubsection}
 
 
 \section*{文档排版样式说明}
