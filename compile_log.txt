@@ -22,3 +22,4 @@
 2025-11-29 11:48:52 | duration_sec=38 | duration_hms=0:00:38 | status=❌ failure (exit 12) | commit=865c8ea | git_action=pushed | warnings=23 | errors=8 | pdf='dissertationMex.pdf' | cmd='latexmk -pdflua -silent -quiet'
 2025-11-29 11:50:52 | duration_sec=38 | duration_hms=0:00:38 | status=❌ failure (exit 12) | commit=b79d4c6 | git_action=pushed | warnings=24 | errors=15 | pdf='dissertationMex.pdf' | cmd='latexmk -pdflua -silent -quiet'
 2025-11-29 11:52:36 | duration_sec=40 | duration_hms=0:00:40 | status=❌ failure (exit 12) | commit=fbc67f1 | git_action=pushed | warnings=24 | errors=11 | pdf='dissertationMex.pdf' | cmd='latexmk -pdflua -silent -quiet'
+2025-11-29 11:54:35 | duration_sec=39 | duration_hms=0:00:39 | status=❌ failure (exit 12) | commit=dc828f6 | git_action=pushed | warnings=22 | errors=3 | pdf='dissertationMex.pdf' | cmd='latexmk -pdflua -silent -quiet'
