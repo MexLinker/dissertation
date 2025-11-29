@@ -687,7 +687,8 @@
 \subsection{编号公式}
 在排版研究生论文时，\shtthesis{} 通过 \textsf{mathtools} 宏包在公式编号前添加 $\ldots$ 以符合《规范》对公式编号的格式要求，如：
 \begin{align}
-P(A|B) &= \frac{P(A)P(B|A)}{P(B)} \label{eq::bayesian}
+  P(A|B) &= \frac{P(A)P(B|A)}{P(B)} 
+  \label{eq::bayesian}
 \end{align}
 同时重载了 \verb|\eqref|，使得公式编号格式修改后，其引用格式仍与 \textsf{amsmath} 无异：贝叶斯定理~\eqref{eq::bayesian}。排版本科生论文时不修改公式编号格式。
 
@@ -816,30 +817,7 @@ P(A|B) &= \frac{P(A)P(B|A)}{P(B)} \label{eq::bayesian}
   \item[第四章第四十三条] 用人单位不得违反本法规定延长劳动者的工作时间。   
 \end{description}
 
-\subsection{双语图表标题}
-《规范》要求正文中所有图形、表格标题使用中英双语。此需求可以通过 \textsf{bicaption} 宏包实现，如图~\ref{img::sht_logo} 所示。
-\begin{figure}[htb]
-  \centering
-  \IfFileExists{shanghaitech-emblem.pdf}{%
-    \includegraphics[width=0.5\columnwidth]{shanghaitech-emblem.pdf}%
-  }{%
-    \fbox{%
-      \begin{minipage}[b][2.5cm][c]{0.75\columnwidth}%
-        \centering\zihao{-5}\bfseries\sffamily\color{ShtRed}%
-        校徽文件 \texttt{shanghaitech-emblem.pdf} 缺失%
-      \end{minipage}%
-    }%
-  }%
-  \bicaption{上海科技大学校徽}{School logo of ShanghaiTech University}
-  \label{img::sht_logo}
-\end{figure}
 
-由于在排版较长的、自包含的图表标题时，使用双语图表标题会导致可读性下降，\shtthesis{} 默认不载入 \textsf{bicaption} 宏包。（ \shtthesis{} 作者在 2020 年学位申请时并未使用双语标题。）若确实需要双语标题，可在导言区内手动载入 \textsf{bicaption}。注意需要设定 \verb|list=off| 以确保英文标题不出现在图表列表中：
-\begin{latex}
-\usepackage[list=off]{bicaption}
-\captionsetup[figure][bi-second]{name=Figure}
-\captionsetup[table][bi-second]{name=Table}
-\end{latex}
 
 \section{附录及其他内容} \label{sec::backmatter}
 正文完成后，使用 \verb|\makebiblio| 命令可生成参考文献，若需读取自定义 bib 文件请参考第~\ref{sec::citation} 节。使用 \verb|\appendix| 命令后，即可像书写正文一样书写附录。默认目录中只显示“附录”一项，不显示附录各级标题。
