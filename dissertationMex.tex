@@ -20,8 +20,11 @@
   % shtsetup
   degree-name = {工学硕士},
   degree-name* = {Master~of~Science~in~Engineering},
-  secret-level = {你喜欢},
-  title = {\ShtThesis{}~v\version{}~使用说明},
+  secret-level = {保密等级},
+  % title = {\ShtThesis{}~v\version{}~使用说明},
+
+  title = {无源无联网探索},
+
   title* = {A~User's~Guide\\to\\\ShtThesis{}~v\version{}},
   keywords = {上海科技大学，学位论文，\LaTeX{}},
   keywords* = {ShanghaiTech~University, Thesis, \LaTeX{}},
@@ -202,15 +205,18 @@
 
 \frontmatter
 \begin{abstract}[flattitle]
-  本文档阐述 \shtthesis{} v\version{} 的使用方法，包括其编译方式、文档类选项以及提供的功能。希望能够帮助读者快速便捷地完成学位论文排版。
+  % 本文档阐述 \shtthesis{} v\version{} 的使用方法，包括其编译方式、文档类选项以及提供的功能。希望能够帮助读者快速便捷地完成学位论文排版。
 
-  \shtthesis{} 旨在以最简实现和最小依赖完整覆盖上海科技大学本科及研究生学位论文的所有格式要求，且不为用户额外设限。使用时仅需指定 documentclass 为 \shtthesis{} 即可满足基本排版要求。文档通过 \verb|\shtsetup| 命令统一设定学位论文信息，且仅提供满足格式需求的最少额外命令以保证兼容性。用户可根据自身撰文习惯，引入额外的宏包和命令完成学位论文撰写。
+  % \shtthesis{} 旨在以最简实现和最小依赖完整覆盖上海科技大学本科及研究生学位论文的所有格式要求，且不为用户额外设限。使用时仅需指定 documentclass 为 \shtthesis{} 即可满足基本排版要求。文档通过 \verb|\shtsetup| 命令统一设定学位论文信息，且仅提供满足格式需求的最少额外命令以保证兼容性。用户可根据自身撰文习惯，引入额外的宏包和命令完成学位论文撰写。
+
+  这里是本文的摘要，企在概括本文的研究目的、方法与结果。
+
 \end{abstract}
 
 \begin{abstract*}[flattitle]
-  We elaborate on the usage of document class \shtthesis{} v\version{}, including its compiling process, class options and provided functionalities. We hope this document can help the reader to quickly typeset his or her thesis. 
-
-  \shtthesis{} is intended to cover all format requirements of ShanghaiTech graduate/undergraduate thesis with minimal function set and introduce no restriction to the user. Specifying documentclass to \shtthesis{} is suﬀicient for the basic typesetting requirements. This document class uses \verb|\shtsetup| to uniformly set up mandatory information and only provides minimum auxiliary commands to meet all format requirements. Users can import other packages and functionalities according to their writing habits. 
+ 
+  This is the abstract of this paper. I would like to introduce the main research object, the method used, and the results.
+  
 \end{abstract*}
 
 \makeindices
