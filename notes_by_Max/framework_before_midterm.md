@@ -16,3 +16,6 @@ it need contemplate
 
 fFIZEyMekamvD0guejWCUbvQ2IS7N82xTiu9PYndWUs=
 
+you can use this for later stuff of exploreing papers to quote
+
+TS=(self - powered IoT OR battery - free IoT) AND CU=(China) AND PY=(2022-2025)
