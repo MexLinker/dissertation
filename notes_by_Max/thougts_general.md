@@ -1,6 +1,8 @@
-## thoughts 
+## general thoughts 
 
-I want this dissertation fully made by hand, instead of AI gen. But also I will consider the efficiency.
+I want this dissertation fully made by hand, instead of AI gen. The reason why I got this idea was the influence by Dr.Cong. He said that his dissertation was XXX. And I am deaming one day I will have my dissertation printed and place a glass of campagne. 
+
+But also I will consider the efficiency.
 
 It just a form of respect my work and a practive of scientific writting.
 
