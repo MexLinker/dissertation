@@ -13,6 +13,7 @@ my current works (before Dec2):
 
 1. OMS 
 
+
 2. SP-IoT-region 
 
 3. MCPT 
@@ -33,6 +34,8 @@ my current works (before Dec2):
 
 I cam to think about my work can be divided to energy or application related topics. 
 
+2. 
+
 
 
 
@@ -50,4 +53,6 @@ TS=(self - powered IoT OR battery - free IoT) AND CU=(China) AND PY=(2022-2025)
 
 ### todo
 
-- Follow girlfriend’s idea: Structure the passage with chapters/sections.      also you need a chart of all of your theories
+1. Follow girlfriend’s idea: Structure the passage with chapters/sections.      also you need a chart of all of your theories
+
+2. I may ask for help to Prof.Fu, bcs I saw potential of his guidance on **locate the research meaning big picture**.
